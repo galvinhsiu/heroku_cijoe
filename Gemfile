@@ -1,4 +1,5 @@
 source 'http://rubygems.org'
+source 'http://gems.github.com'
 
 gem 'cijoe', :git => 'git://github.com/hoverlover/cijoe.git'
 gem 'sinatra', '1.1.2'
