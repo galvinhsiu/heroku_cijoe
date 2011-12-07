@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/hoverlover/cijoe.git
-  revision: fca3db9f21a55a6326a924eaa149ffc0f05e0e0d
+  revision: f5109f347f371b81d3b937c38fcaf63b982c14eb
   specs:
     cijoe (0.5.0)
       choice
@@ -9,42 +9,43 @@ GIT
 GEM
   remote: http://rubygems.org/
   specs:
-    addressable (2.2.2)
-    bitly (0.6.1)
+    activesupport (3.1.3)
+      multi_json (~> 1.0)
+    addressable (2.2.6)
+    bitly (0.6.2)
       crack (>= 0.1.4)
-      httparty (>= 0.5.2)
+      httparty (>= 0.7.6)
       oauth2 (>= 0.1.1)
     choice (0.1.4)
-    crack (0.1.8)
-    faraday (0.5.4)
-      addressable (~> 2.2.2)
-      multipart-post (~> 1.1.0)
+    crack (0.3.1)
+    faraday (0.7.5)
+      addressable (~> 2.2.6)
+      multipart-post (~> 1.1.3)
       rack (>= 1.1.0, < 2)
-    faraday_middleware (0.3.1)
-      faraday (~> 0.5.3)
-    hashie (0.4.0)
-    httparty (0.6.1)
-      crack (= 0.1.8)
-    multi_json (0.0.5)
-    multi_xml (0.2.0)
-    multipart-post (1.1.0)
-    oauth2 (0.1.1)
-      faraday (~> 0.5.0)
-      multi_json (~> 0.0.4)
-    rack (1.2.1)
-    rake (0.8.7)
-    simple_oauth (0.1.3)
-    sinatra (1.1.2)
-      rack (~> 1.1)
-      tilt (~> 1.2)
-    tilt (1.2.1)
-    twitter (1.1.0)
-      faraday (~> 0.5.3)
-      faraday_middleware (~> 0.3.1)
-      hashie (~> 0.4.0)
-      multi_json (~> 0.0.5)
-      multi_xml (~> 0.2.0)
-      simple_oauth (~> 0.1.3)
+    httparty (0.8.1)
+      multi_json
+      multi_xml
+    multi_json (1.0.4)
+    multi_xml (0.4.1)
+    multipart-post (1.1.4)
+    oauth2 (0.5.1)
+      faraday (~> 0.7.4)
+      multi_json (~> 1.0.3)
+    rack (1.3.5)
+    rack-protection (1.1.4)
+      rack
+    rake (0.9.2.2)
+    simple_oauth (0.1.5)
+    sinatra (1.3.1)
+      rack (~> 1.3, >= 1.3.4)
+      rack-protection (~> 1.1, >= 1.1.2)
+      tilt (~> 1.3, >= 1.3.3)
+    tilt (1.3.3)
+    twitter (2.0.2)
+      activesupport (>= 2.3.9, < 4)
+      faraday (~> 0.7)
+      multi_json (~> 1.0)
+      simple_oauth (~> 0.1)
 
 PLATFORMS
   ruby
